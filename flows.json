@@ -1,1 +1,1083 @@
-[]
+[
+    {
+        "id": "27453eb3b5931122",
+        "type": "tab",
+        "label": "Entrar",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c09b36079f5f5c28",
+        "type": "tab",
+        "label": "Cadastra-se",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9ac29e4d4d44d22f",
+        "type": "tab",
+        "label": "Filmes",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c63ca75cc80b6b11",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f557a6c3d1619afc",
+        "type": "ui_tab",
+        "name": "Entrar",
+        "icon": "login",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "57c0cad8a61d6ca2",
+        "type": "ui_tab",
+        "name": "Cadastra-se",
+        "icon": "account_circle",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "514ef1f2412eeb12",
+        "type": "ui_group",
+        "name": "Entrar",
+        "tab": "f557a6c3d1619afc",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e70a82a460352ef9",
+        "type": "ui_group",
+        "name": "Cadastre-se",
+        "tab": "57c0cad8a61d6ca2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2337245dd4f26484",
+        "type": "ui_tab",
+        "name": "Filmes",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3b63410f62f37e28",
+        "type": "ui_group",
+        "name": "Listagem de filmes",
+        "tab": "2337245dd4f26484",
+        "order": 1,
+        "disp": true,
+        "width": "25",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "81d143ea4e944b2e",
+        "type": "ui_spacer",
+        "z": "9ac29e4d4d44d22f",
+        "name": "spacer",
+        "group": "3b63410f62f37e28",
+        "order": 3,
+        "width": 22,
+        "height": 1
+    },
+    {
+        "id": "d70a27746ca1a68c",
+        "type": "ui_form",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "label": "",
+        "group": "514ef1f2412eeb12",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Usuário",
+                "value": "user",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Senha",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "user": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Entrar",
+        "cancel": "Cancelar",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "ee8de84e0294e8fc"
+            ]
+        ]
+    },
+    {
+        "id": "ee8de84e0294e8fc",
+        "type": "template",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "field": "url",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://qazlfsxxnbvcupqtqqxf.supabase.co/rest/v1/ctj_autorizacao?user=eq.{{payload.user}}&password=eq.{{payload.password}}",
+        "output": "str",
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "76f2cd1e9167da76"
+            ]
+        ]
+    },
+    {
+        "id": "76f2cd1e9167da76",
+        "type": "http request",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "apikey",
+                "valueType": "other",
+                "valueValue": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhemxmc3h4bmJ2Y3VwcXRxcXhmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5Njg2MDU1MywiZXhwIjoyMDEyNDM2NTUzfQ.g-AmyyofnSMuew141w9ZM_TgpX23-tAKctFPOuoameI"
+            }
+        ],
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "630bb2407aaf3925"
+            ]
+        ]
+    },
+    {
+        "id": "630bb2407aaf3925",
+        "type": "switch",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            },
+            {
+                "t": "empty"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 610,
+        "y": 340,
+        "wires": [
+            [
+                "09e8ebef713e1d93",
+                "5257b57286403419"
+            ],
+            [
+                "c68aa7e7b7ac3297"
+            ]
+        ]
+    },
+    {
+        "id": "712bd03083ed9ad1",
+        "type": "ui_toast",
+        "z": "27453eb3b5931122",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 980,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c68aa7e7b7ac3297",
+        "type": "change",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Erro ao realizar o login",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 400,
+        "wires": [
+            [
+                "712bd03083ed9ad1"
+            ]
+        ]
+    },
+    {
+        "id": "09e8ebef713e1d93",
+        "type": "change",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "user",
+                "pt": "global",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 260,
+        "wires": [
+            [
+                "bded719a3b24c23e"
+            ]
+        ]
+    },
+    {
+        "id": "4c4caeb175b7234c",
+        "type": "ui_ui_control",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "events": "all",
+        "x": 1140,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bded719a3b24c23e",
+        "type": "change",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Filmes",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 260,
+        "wires": [
+            [
+                "4c4caeb175b7234c"
+            ]
+        ]
+    },
+    {
+        "id": "eb60410dc5caf29b",
+        "type": "ui_ui_control",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "events": "all",
+        "x": 920,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5257b57286403419",
+        "type": "template",
+        "z": "27453eb3b5931122",
+        "name": "Ocultar login",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n  \"tabs\": {\n    \"hide\": [\"Entrar\", \"Cadastra-se\"],\n    \"show\": [\"Filmes\"]\n  }\n}\n",
+        "output": "json",
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "eb60410dc5caf29b"
+            ]
+        ]
+    },
+    {
+        "id": "e74148c70de01aae",
+        "type": "ui_button",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "group": "514ef1f2412eeb12",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Cadastra-se",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Cadastra-se",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 420,
+        "wires": [
+            [
+                "29ea57eb693a1ab3"
+            ]
+        ]
+    },
+    {
+        "id": "29ea57eb693a1ab3",
+        "type": "ui_ui_control",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "events": "all",
+        "x": 340,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "341c3168cb43c3b6",
+        "type": "template",
+        "z": "27453eb3b5931122",
+        "name": "Ocultar login",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n  \"tabs\": {\n    \"hide\": [\"Entrar\", \"Cadastra-se\"],\n    \"show\": [\"Filmes\"]\n  }\n}\n",
+        "output": "json",
+        "x": 570,
+        "y": 640,
+        "wires": [
+            [
+                "0060ab10dac1a345"
+            ]
+        ]
+    },
+    {
+        "id": "a084129e11945fc8",
+        "type": "switch",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "property": "user",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "341c3168cb43c3b6",
+                "cf824e9edb893306"
+            ],
+            [
+                "9c4c486e80e15fe2"
+            ]
+        ]
+    },
+    {
+        "id": "0060ab10dac1a345",
+        "type": "ui_ui_control",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "events": "all",
+        "x": 760,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf824e9edb893306",
+        "type": "change",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Filmes",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 600,
+        "wires": [
+            [
+                "0060ab10dac1a345"
+            ]
+        ]
+    },
+    {
+        "id": "ed578973d0c9a1d8",
+        "type": "switch",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "property": "name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Entrar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 680,
+        "wires": [
+            [
+                "a084129e11945fc8"
+            ]
+        ]
+    },
+    {
+        "id": "9f48eb77591ba5ce",
+        "type": "ui_ui_control",
+        "z": "27453eb3b5931122",
+        "name": "",
+        "events": "all",
+        "x": 120,
+        "y": 680,
+        "wires": [
+            [
+                "ed578973d0c9a1d8"
+            ]
+        ]
+    },
+    {
+        "id": "9c4c486e80e15fe2",
+        "type": "template",
+        "z": "27453eb3b5931122",
+        "name": "Exibir login",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n  \"tabs\": {\n    \"show\": [\"Entrar\", \"Cadastra-se\"],\n    \"hide\": [\"Filmes\"]\n  }\n}\n",
+        "output": "json",
+        "x": 570,
+        "y": 720,
+        "wires": [
+            [
+                "0060ab10dac1a345"
+            ]
+        ]
+    },
+    {
+        "id": "f2208c4c4db4dbb3",
+        "type": "ui_form",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "label": "",
+        "group": "e70a82a460352ef9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Usuário",
+                "value": "user",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Senha",
+                "value": "password",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "user": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Cadastrar",
+        "cancel": "Cancelar",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "6767dd5b4821fcda"
+            ]
+        ]
+    },
+    {
+        "id": "6767dd5b4821fcda",
+        "type": "http request",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://qazlfsxxnbvcupqtqqxf.supabase.co/rest/v1/ctj_autorizacao",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "apikey",
+                "valueType": "other",
+                "valueValue": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhemxmc3h4bmJ2Y3VwcXRxcXhmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5Njg2MDU1MywiZXhwIjoyMDEyNDM2NTUzfQ.g-AmyyofnSMuew141w9ZM_TgpX23-tAKctFPOuoameI"
+            }
+        ],
+        "x": 310,
+        "y": 300,
+        "wires": [
+            [
+                "ba95374447b4b11e"
+            ]
+        ]
+    },
+    {
+        "id": "ba95374447b4b11e",
+        "type": "switch",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "201",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "201",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "be93407612cf2f44"
+            ],
+            [
+                "fcd5a3511f66ed77"
+            ]
+        ]
+    },
+    {
+        "id": "6e03f60344914b82",
+        "type": "ui_toast",
+        "z": "c09b36079f5f5c28",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 860,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fcd5a3511f66ed77",
+        "type": "change",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Erro ao realizar o cadastro",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 360,
+        "wires": [
+            [
+                "6e03f60344914b82"
+            ]
+        ]
+    },
+    {
+        "id": "e64e855161cb7a08",
+        "type": "ui_ui_control",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "events": "all",
+        "x": 840,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be93407612cf2f44",
+        "type": "change",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Entrar",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 240,
+        "wires": [
+            [
+                "e64e855161cb7a08"
+            ]
+        ]
+    },
+    {
+        "id": "7f7a2f4feed699f4",
+        "type": "ui_ui_control",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "events": "all",
+        "x": 320,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53f77129f7ca1b10",
+        "type": "ui_button",
+        "z": "c09b36079f5f5c28",
+        "name": "",
+        "group": "e70a82a460352ef9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Entrar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Entrar",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 400,
+        "wires": [
+            [
+                "7f7a2f4feed699f4"
+            ]
+        ]
+    },
+    {
+        "id": "2a01ae4e6ddd824e",
+        "type": "ui_button",
+        "z": "9ac29e4d4d44d22f",
+        "name": "",
+        "group": "3b63410f62f37e28",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Sair",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Entrar",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "394f2537284d1a5c",
+                "517aaae9c32b6f25",
+                "dd774e18cb0c2fe9"
+            ]
+        ]
+    },
+    {
+        "id": "517aaae9c32b6f25",
+        "type": "ui_ui_control",
+        "z": "9ac29e4d4d44d22f",
+        "name": "",
+        "events": "all",
+        "x": 260,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "394f2537284d1a5c",
+        "type": "change",
+        "z": "9ac29e4d4d44d22f",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "user",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd774e18cb0c2fe9",
+        "type": "template",
+        "z": "9ac29e4d4d44d22f",
+        "name": "Exibir login",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n  \"tabs\": {\n    \"show\": [\"Entrar\", \"Cadastra-se\"],\n    \"hide\": [\"Filmes\"]\n  }\n}\n",
+        "output": "json",
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "6f15cc3e958dcb74"
+            ]
+        ]
+    },
+    {
+        "id": "6f15cc3e958dcb74",
+        "type": "ui_ui_control",
+        "z": "9ac29e4d4d44d22f",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a13a7088e6120bb5",
+        "type": "http request",
+        "z": "9ac29e4d4d44d22f",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://sheet.best/api/sheets/8f21aacc-508e-49a2-b365-2f3874b18467",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 550,
+        "y": 460,
+        "wires": [
+            [
+                "d2a4031b737a7fd1"
+            ]
+        ]
+    },
+    {
+        "id": "0a57093f0b957a1d",
+        "type": "ui_ui_control",
+        "z": "9ac29e4d4d44d22f",
+        "name": "",
+        "events": "change",
+        "x": 200,
+        "y": 460,
+        "wires": [
+            [
+                "a65cc97c530418a1"
+            ]
+        ]
+    },
+    {
+        "id": "a65cc97c530418a1",
+        "type": "switch",
+        "z": "9ac29e4d4d44d22f",
+        "name": "",
+        "property": "name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Filmes",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 460,
+        "wires": [
+            [
+                "a13a7088e6120bb5"
+            ]
+        ]
+    },
+    {
+        "id": "92bc2d5f2eecdc5e",
+        "type": "ui_template",
+        "z": "9ac29e4d4d44d22f",
+        "group": "3b63410f62f37e28",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    this.scope.selectMovie = function (movie, event) {\n  const payload = {\n    id_auth: this.msg.payload.user.id_auth,\n    id_filme: movie.id,\n    filme_name: movie.name,\n    user: this.msg.payload.user.user,\n  }\n\n  const button = event.currentTarget\n  button.innerText = \"Selecionando...\"\n\n  fetch(\n    'https://sheet.best/api/sheets/b0490ecd-da2c-40f9-b755-979046fb885d',\n    {\n      method: 'POST',\n      body: JSON.stringify(payload),\n      headers: {\n        'Content-Type': 'application/json',\n      },\n    }\n  )\n    .then((response) => {\n      if (response.ok) {\n        console.log('Filme selecionado com sucesso')\n        button.innerText = \"Filme selecionado\"\n        setTimeout(() => {\n          button.innerText = \"Selecionar novamente\"\n        }, 5000)\n      } else {\n        button.innerText = \"Ops ocorreu um erro\"\n      }\n    })\n    .catch((error) => {\n      console.error(error)\n      button.innerText = \"Ops ocorreu um erro\"\n    })\n}\n</script>\n\n<style>\n    body {\n        background: black;\n    }\n\n    * {\n        box-sizing: border-box;\n        margin: 0;\n        padding: 0;\n    }\n\n    .movies {\n        display: grid;\n        grid-template-columns: 1fr 1fr 1fr;\n        gap: 32px;\n    }\n\n    .movie {\n        width: 100%;\n        background: #212121;\n        border-radius: 8px;\n        overflow: hidden;\n    }\n\n    .movie__image {\n        width: 100%;\n        height: 500px;\n        object-fit: cover;\n        display: block;\n        margin-bottom: 16px;\n    }\n\n    .movie__info {\n        padding: 16px;\n    }\n\n    .movie__title {\n        font-family: Arial, Helvetica, sans-serif;\n        color: #ffffff;\n        font-size: 24px;\n        margin-bottom: 8px;\n    }\n\n    .movie__description {\n        font-family: Arial, Helvetica, sans-serif;\n        color: #ffffff;\n        font-size: 16px;\n        line-height: 1.5;\n    }\n\n    .movie__button {\n        width: 100%;\n        background: #ffffff;\n        border: none;\n        padding: 12px 16px;\n        border-radius: 4px;\n        font-size: 16px;\n        margin-top: 12px;\n        transition: 0.2s;\n        cursor: pointer;\n    }\n\n    .movie__button:hover {\n        opacity: 0.9;\n    }\n</style>\n\n<div class=\"movies\">\n    <div class=\"movie\" ng-repeat=\"movie in msg.payload.movies\">\n        <img class=\"movie__image\" ng-src=\"{{movie.image}}\" alt=\"{{movie.name}}\" />\n        <div class=\"movie__info\">\n            <div class=\"movie__title\">{{movie.name}}</div>\n            <div class=\"movie__description\">{{movie.description}}</div>\n            <button ng-click=\"selectMovie(movie, $event)\" class=\"movie__button\">\n        Selecionar\n      </button>\n        </div>\n    </div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 840,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2a4031b737a7fd1",
+        "type": "function",
+        "z": "9ac29e4d4d44d22f",
+        "name": "function 1",
+        "func": "msg.payload = {\n    movies: msg.payload,\n    user: global.get(\"user\")\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 460,
+        "wires": [
+            [
+                "92bc2d5f2eecdc5e"
+            ]
+        ]
+    }
+]
