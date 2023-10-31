@@ -1,4 +1,12 @@
-# Tech Challenge - FIAP
+# Tech Challenge - FIAP - Grupo M
+
+## Integrantes do Grupo M
+
+Guilherme Henrry Batista Damasceno
+guilhermehenry60@gmail.com
+
+Douglas Soares de Oliveira
+soares.douglas.oliveira@hotmail.com
 
 ## Sobre
 
